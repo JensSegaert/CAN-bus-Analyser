@@ -13,19 +13,14 @@ Also, there is a counter for each signal. A logger file is made too meant for ve
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-Procedure:
 
-1. Install python and needed packages first by clicking on 'Install...  .bat' in folder "Install python" , IMPORTANT: DON'T CLOSE THE WINDOW, the window closes itself when the installation is done.
-   When the installing, the python setup exe-file opens. Click on 'Modify' and make sure all Optional features and advanced options are selected.
-   
-   Note: If python isn't installed correctly. Click on "python-3.11.5-amd64.exe" in the folder. Click on 'Modify' and make sure all optional features and advanced options are selected. Go to the terminal in the folder (cmd) 
-          and paste this in the terminal:
+Install python 3.11.5 and needed libraries: 
 
-                                                                                                pip install python-can
-                                                                                                pip install cantools
-                                                                                                pip install cachetools
+							pip install python-can
+							pip install cantools
+							pip install cachetools
 
-2. What you need to know:
+What you need to know:
    	- Connect a CAN-interface (peak,vector...) with your pc to receive CAN-data.
 	- When running one of the scripts: you have to choose a json-file. The script opens the folder 'Configuration files' in the main    	  folder.
 	- A log file is made of all the CAN-messages. This is found in folder 'Log files'.
