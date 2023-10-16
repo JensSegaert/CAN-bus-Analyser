@@ -1,0 +1,923 @@
+{
+    "Locatie Database CAN1": "Databases CAN\\J1939-kopie.dbc",
+    "Locatie Database CAN2": "Databases CAN\\VFC_epic.dbc",
+    "Locatie Database CAN3": "Databases CAN\\DAFO_corrected_byte_order",
+    "Locatie Database CAN4": "Databases CAN\\BMU-TOP-INCAN",
+    "Locatie Database CAN5": "",
+    "Locatie Database CAN6": "",
+    "Locatie Database CAN7": "",
+    "Locatie Database CAN8": "",
+    "Locatie Database CAN9": "",
+    "Locatie Database CAN10": "",
+
+
+    "Interface1": "pcan",
+    "Channel1": "PCAN_USBBUS1",
+    "Bitrate1": 250000,
+
+    "Interface2": "",
+    "Channel2": "",
+    "Bitrate2": "",
+
+    "Interface3": "",
+    "Channel3": "",
+    "Bitrate3": "",
+
+    "Interface4": "",
+    "Channel4": "",
+    "Bitrate4": "",
+
+    "Interface5": "",
+    "Channel5": "",
+    "Bitrate5": "",
+
+    "Interface6": "",
+    "Channel6": "",
+    "Bitrate6": "",
+
+
+
+    "Field_parameters": [
+        {
+            "Field1": {
+                "message": "SBMU1_1",
+                "value": "Battery_Cuttent",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field2": {
+                "message": "SBMU1_1",
+                "value": "Battery_Voltage",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field3": {
+                "message": "SBMU1_2",
+                "value": "Cell_Min_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field4": {
+                "message": "SBMU1_2",
+                "value": "Cell_Max_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field5": {
+                "message": "SBMU1_3",
+                "value": "Cell_Min_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field6": {
+                "message": "SBMU1_3",
+                "value": "Cell_Max_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field7": {
+                "message": "SBMU2_1",
+                "value": "Battery_Current",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field8": {
+                "message": "SBMU2_1",
+                "value": "Battery_Voltage",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field9": {
+                "message": "SBMU2_2",
+                "value": "Cell_Min_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field10": {
+                "message": "SBMU2_2",
+                "value": "Cell_Max_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field11": {
+                "message": "SBMU2_3",
+                "value": "Cell_Min_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field12": {
+                "message": "SBMU2_3",
+                "value": "Cell_Max_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field13": {
+                "message": "SBMU3_1",
+                "value": "Battery_Cuttent",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field14": {
+                "message": "SBMU3_1",
+                "value": "Battery_Voltage",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field15": {
+                "message": "SBMU3_2",
+                "value": "Cell_Min_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field16": {
+                "message": "SBMU3_2",
+                "value": "Cell_Max_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field17": {
+                "message": "SBMU3_3",
+                "value": "Cell_Min_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field18": {
+                "message": "SBMU3_3",
+                "value": "Cell_Max_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field19": {
+                "message": "SBMU4_1",
+                "value": "Battery_Cuttent",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field20": {
+                "message": "SBMU4_1",
+                "value": "Battery_Voltage",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field21": {
+                "message": "SBMU4_2",
+                "value": "Cell_Min_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field22": {
+                "message": "SBMU4_2",
+                "value": "Cell_Max_Vol",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field23": {
+                "message": "SBMU4_3",
+                "value": "Cell_Min_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field24": {
+                "message": "SBMU4_3",
+                "value": "Cell_Max_Tem",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field25": {
+                "message": "DAFO1",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field26": {
+                "message": "DAFO2",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field27": {
+                "message": "DAFO3",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field28": {
+                "message": "DAFO4",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field29": {
+                "message": "DAFO5",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field30": {
+                "message": "DAFO6",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field31": {
+                "message": "DAFO7",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field32": {
+                "message": "DAFO8",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field33": {
+                "message": "DAFO9",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field34": {
+                "message": "DAFO10",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field35": {
+                "message": "DAFO11",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field36": {
+                "message": "DAFO12",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field37": {
+                "message": "DAFO13",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field38": {
+                "message": "DAFO14",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field39": {
+                "message": "DAFO15",
+                "value": "Temperature",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field40": {
+                "message": "DAFO1",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field41": {
+                "message": "DAFO2",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field42": {
+                "message": "DAFO3",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field43": {
+                "message": "DAFO4",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field44": {
+                "message": "DAFO5",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field45": {
+                "message": "DAFO6",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field46": {
+                "message": "DAFO7",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field47": {
+                "message": "DAFO8",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field48": {
+                "message": "DAFO9",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field49": {
+                "message": "DAFO10",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field50": {
+                "message": "DAFO11",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field51": {
+                "message": "DAFO12",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field52": {
+                "message": "DAFO13",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field53": {
+                "message": "DAFO14",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field54": {
+                "message": "DAFO15",
+                "value": "CO_ppm",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field55": {
+                "message": "DAFO1",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field56": {
+                "message": "DAFO2",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field57": {
+                "message": "DAFO3",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field58": {
+                "message": "DAFO4",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field59": {
+                "message": "DAFO5",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field60": {
+                "message": "DAFO6",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field61": {
+                "message": "DAFO7",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field62": {
+                "message": "DAFO8",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field63": {
+                "message": "DAFO9",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field64": {
+                "message": "DAFO10",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field65": {
+                "message": "DAFO11",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field66": {
+                "message": "DAFO12",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field67": {
+                "message": "DAFO13",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field68": {
+                "message": "DAFO14",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field69": {
+                "message": "DAFO15",
+                "value": "AnalogFrontendedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field70": {
+                "message": "DAFO1",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field71": {
+                "message": "DAFO2",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field72": {
+                "message": "DAFO3",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field73": {
+                "message": "DAFO4",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field74": {
+                "message": "DAFO5",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field75": {
+                "message": "DAFO6",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field76": {
+                "message": "DAFO7",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field77": {
+                "message": "DAFO8",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field78": {
+                "message": "DAFO9",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field79": {
+                "message": "DAFO10",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field80": {
+                "message": "DAFO11",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field81": {
+                "message": "DAFO12",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field82": {
+                "message": "DAFO13",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field83": {
+                "message": "DAFO14",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field84": {
+                "message": "DAFO15",
+                "value": "OffsetFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field85": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field86": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field87": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field88": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field89": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field90": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field91": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field92": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field93": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field94": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field95": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field96": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field97": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field98": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field99": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field100": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field101": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field102": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field103": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field104": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field105": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field106": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field107": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field108": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field109": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field110": {
+                "message": "",
+                "value": "",
+                "min": "",
+                "max": ""
+            }
+        }
+    ]
+}
+

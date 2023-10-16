@@ -1,0 +1,923 @@
+{
+    "Locatie Database CAN1": "C:\\Users\\VDLBRO\\Documents\\CanDatabases\\J1939-kopie.dbc",
+    "Locatie Database CAN2": "C:\\Users\\VDLBRO\\Documents\\CanDatabases\\VFC_epic.dbc",
+    "Locatie Database CAN3": "",
+    "Locatie Database CAN4": "",
+    "Locatie Database CAN5": "",
+    "Locatie Database CAN6": "",
+    "Locatie Database CAN7": "",
+    "Locatie Database CAN8": "",
+    "Locatie Database CAN9": "",
+    "Locatie Database CAN10": "",
+
+
+    "Interface1": "vector",
+    "Channel1": "0",
+    "Bitrate1": 250000,
+
+    "Interface2": "",
+    "Channel2": "",
+    "Bitrate2": "",
+
+    "Interface3": "",
+    "Channel3": "",
+    "Bitrate3": "",
+
+    "Interface4": "",
+    "Channel4": "",
+    "Bitrate4": "",
+
+    "Interface5": "",
+    "Channel5": "",
+    "Bitrate5": "",
+
+    "Interface6": "",
+    "Channel6": "",
+    "Bitrate6": "",
+
+
+
+    "Field_parameters": [
+        {
+            "Field1": {
+                "message": "DC1",
+                "value": "PosOfDoors",
+                "min": 0,
+                "max": 4
+            }
+        },
+        {
+            "Field2": {
+                "message": "",
+                "value": "Ramp_WheelChairLiftPos",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field3": {
+                "message": "DC1",
+                "value": "Status2OfDoors",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field4": {
+                "message": "AIR1",
+                "value": "AirSuspensionSupplyPress",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field5": {
+                "message": "",
+                "value": "RearWiperSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field6": {
+                "message": "",
+                "value": "RearWiperDelayCtrl",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field7": {
+                "message": "",
+                "value": "RearWasherFunction",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field8": {
+                "message": "",
+                "value": "FrontNonoperatorWasherSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field9": {
+                "message": "",
+                "value": "AirCompressorStatus",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field10": {
+                "message": "",
+                "value": "PowertrainCircuitAirSupplyPress",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field11": {
+                "message": "",
+                "value": "OpenStatusOfDoor1",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field12": {
+                "message": "",
+                "value": "EnableStatusOfDoor1",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field13": {
+                "message": "",
+                "value": "ServiceBrakeCircuit1AirPress",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field14": {
+                "message": "",
+                "value": "TireLocation",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field15": {
+                "message": "",
+                "value": "BarometricPress",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field16": {
+                "message": "",
+                "value": "AmbientAirTemp",
+                "min": "",
+                "max": 20
+            }
+        },
+        {
+            "Field17": {
+                "message": "",
+                "value": "CoolantLevelDriveLineState",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field18": {
+                "message": "",
+                "value": "DisplayIllumination",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field19": {
+                "message": "",
+                "value": "HVBatteryHP1CoolantLevelState",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field20": {
+                "message": "",
+                "value": "ClimateCoolantLevelState",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field21": {
+                "message": "",
+                "value": "HVBatteryHP2CoolantLevelState",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field22": {
+                "message": "",
+                "value": "CoolantLevelRearDriveLineState",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field23": {
+                "message": "",
+                "value": "Rearviewcamera",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field24": {
+                "message": "",
+                "value": "DriverDoorOpenWarning",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field25": {
+                "message": "",
+                "value": "FlapWarningColor",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field26": {
+                "message": "",
+                "value": "PRAMStopRequest",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field27": {
+                "message": "",
+                "value": "TurnTableRedFault",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field28": {
+                "message": "",
+                "value": "Door_3_Camera",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field29": {
+                "message": "",
+                "value": "CMS_DayNightSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field30": {
+                "message": "",
+                "value": "LaneDepartureWarningEnableCmd",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field31": {
+                "message": "",
+                "value": "MainLightSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field32": {
+                "message": "",
+                "value": "TurnSignalSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field33": {
+                "message": "",
+                "value": "HazardLightSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field34": {
+                "message": "",
+                "value": "HighLowBeamSwitch",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field35": {
+                "message": "",
+                "value": "Illumination",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field36": {
+                "message": "",
+                "value": "TotalPayloadTransactionCount",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field37": {
+                "message": "",
+                "value": "Field37",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field38": {
+                "message": "",
+                "value": "Field38",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field39": {
+                "message": "",
+                "value": "Field39",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field40": {
+                "message": "",
+                "value": "Field40",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field41": {
+                "message": "",
+                "value": "Field41",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field42": {
+                "message": "",
+                "value": "Field42",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field43": {
+                "message": "",
+                "value": "Field43",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field44": {
+                "message": "",
+                "value": "Field44",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field45": {
+                "message": "",
+                "value": "Field45",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field46": {
+                "message": "",
+                "value": "Field46",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field47": {
+                "message": "",
+                "value": "Field47",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field48": {
+                "message": "",
+                "value": "Field48",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field49": {
+                "message": "",
+                "value": "Field49",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field50": {
+                "message": "",
+                "value": "Field50",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field51": {
+                "message": "",
+                "value": "Field51",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field52": {
+                "message": "",
+                "value": "Field52",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field53": {
+                "message": "",
+                "value": "Field53",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field54": {
+                "message": "",
+                "value": "Field54",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field55": {
+                "message": "",
+                "value": "Field55",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field56": {
+                "message": "",
+                "value": "Field56",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field57": {
+                "message": "",
+                "value": "Field57",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field58": {
+                "message": "",
+                "value": "Field58",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field59": {
+                "message": "",
+                "value": "Field59",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field60": {
+                "message": "",
+                "value": "Field60",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field61": {
+                "message": "",
+                "value": "Field61",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field62": {
+                "message": "",
+                "value": "Field62",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field63": {
+                "message": "",
+                "value": "Field63",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field64": {
+                "message": "",
+                "value": "Field64",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field65": {
+                "message": "",
+                "value": "Field65",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field66": {
+                "message": "",
+                "value": "Field66",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field67": {
+                "message": "",
+                "value": "Field67",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field68": {
+                "message": "",
+                "value": "Field68",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field69": {
+                "message": "",
+                "value": "Field69",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field70": {
+                "message": "",
+                "value": "Field70",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field71": {
+                "message": "",
+                "value": "Field71",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field72": {
+                "message": "",
+                "value": "Field72",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field73": {
+                "message": "",
+                "value": "Field73",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field74": {
+                "message": "",
+                "value": "Field74",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field75": {
+                "message": "",
+                "value": "Field75",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field76": {
+                "message": "",
+                "value": "Field76",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field77": {
+                "message": "",
+                "value": "Field77",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field78": {
+                "message": "",
+                "value": "Field78",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field79": {
+                "message": "",
+                "value": "Field79",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field80": {
+                "message": "",
+                "value": "Field80",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field81": {
+                "message": "",
+                "value": "Field81",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field82": {
+                "message": "",
+                "value": "Field82",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field83": {
+                "message": "",
+                "value": "Field83",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field84": {
+                "message": "",
+                "value": "Field84",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field85": {
+                "message": "",
+                "value": "Field85",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field86": {
+                "message": "",
+                "value": "Field86",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field87": {
+                "message": "",
+                "value": "Field87",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field88": {
+                "message": "",
+                "value": "Field88",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field89": {
+                "message": "",
+                "value": "Field89",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field90": {
+                "message": "",
+                "value": "Field90",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field91": {
+                "message": "",
+                "value": "Field91",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field92": {
+                "message": "",
+                "value": "Field92",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field93": {
+                "message": "",
+                "value": "Field93",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field94": {
+                "message": "",
+                "value": "Field94",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field95": {
+                "message": "",
+                "value": "Field95",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field96": {
+                "message": "",
+                "value": "Field96",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field97": {
+                "message": "",
+                "value": "Field97",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field98": {
+                "message": "",
+                "value": "Field98",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field99": {
+                "message": "",
+                "value": "Field99",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field100": {
+                "message": "",
+                "value": "Field100",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field101": {
+                "message": "",
+                "value": "Field101",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field102": {
+                "message": "",
+                "value": "Field102",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field103": {
+                "message": "",
+                "value": "Field103",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field104": {
+                "message": "",
+                "value": "Field104",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field105": {
+                "message": "",
+                "value": "Field105",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field106": {
+                "message": "",
+                "value": "Field106",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field107": {
+                "message": "",
+                "value": "Field107",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field108": {
+                "message": "",
+                "value": "Field108",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field109": {
+                "message": "",
+                "value": "Field109",
+                "min": "",
+                "max": ""
+            }
+        },
+        {
+            "Field110": {
+                "message": "",
+                "value": "Field110",
+                "min": "",
+                "max": ""
+            }
+        }
+    ]
+}
+
